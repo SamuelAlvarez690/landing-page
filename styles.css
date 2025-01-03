@@ -1,0 +1,164 @@
+body{
+    font-family: "Calibri", sans-serif;
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+}
+
+.top{
+    display:flex;
+    background:#ffb7c5;
+    padding:16px 200px;
+    justify-content:space-between;
+}
+
+.header{
+    display:flex;
+    font-size:24px;
+    font-weight:900;
+    color:#f9faf8;
+}
+
+.links{
+    display:flex;
+    gap:16px;
+    justify-content:center;
+    align-items:center;
+}
+
+a{
+    text-decoration:none;
+    color:#f9faf8;
+}
+
+.info{
+    display:flex;
+    background:#ffb7c5;
+    padding:32px 200px;
+    gap:32px;
+    justify-content:center;
+}
+
+.info-title{
+    font-size:48px;
+    color:white;
+    font-weight:900;
+}
+
+.info-text{
+    display:flex;
+    height:100px;
+    width:300px;
+    flex-wrap:wrap;
+    color:white;
+}
+
+.button-one{
+    background:#ffb7c5;;
+    color:white;
+    border:2px solid white;
+    border-radius:5px;
+    padding:5px 10px;
+}
+
+.images{
+    display:flex;
+    gap:32px;
+}
+
+.cover{
+    display:flex;
+    border:4px solid #89CFF0;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+.icon-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    font-weight:900;
+    padding:35px;
+}
+
+.icons-container{
+    display:flex;
+    justify-content:center;
+    gap:32px;
+}
+
+.icons{
+    display:flex;
+    border:3px solid #89CFF0;
+    border-radius:25px;
+    height:125px;
+    width:125px;
+    overflow:hidden;
+}
+
+.icon-text{
+    display:flex;
+    height:125px;
+    width:125px;
+    justify-content:center;
+    flex-wrap:wrap;
+    text-align:center;
+}
+
+.quote-container{
+    background:#ffb7c5;
+    padding:75px 500px;
+}
+
+.quote{
+    font-size:36px;
+    color:white;
+}
+
+.from{
+    display:flex;
+    justify-content:right;
+    color:white;
+
+}
+
+.subscribe{
+    display:flex;
+    background:#89CFF0;
+    color:white;
+    margin:70px 120px;
+    padding:20px 80px;
+    border-radius:5px;
+    justify-content:space-between;
+}
+
+.urgent{
+    font-size:24px;
+    font-weight:900;
+}
+
+.sub-button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.button-two{
+    background:#89CFF0;
+    color:white;
+    border:2px solid white;
+    border-radius:5px;
+    padding:5px 10px;
+}
+
+.credit{
+    background:#ffb7c5;
+    color: white;
+    font-size:16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
